@@ -30,7 +30,7 @@ https://sheets.googleapis.com
 Clone the project
 
 ```bash
-  git clone xxx
+  git clone https://github.com/yohanessahrul/lisse-berbagi.git
 ```
 
 Go to the project directory
