@@ -2,7 +2,7 @@
 
 Lisse berbagi adalah wadah amal bagi penghuni Cluster Lisse (Perumahan Metland Cibitung) yang diselenggarai oleh Ibu-ibu PKK.
 
-Project ini hanyalah menampilkan data yang ada dari Google Sheet, Sehingga memerllukan update API parameter apabila range yang dicakup lebih luas untuk menampilkan data.
+Project ini hanyalah menampilkan data yang ada dari GoogleSheet, sehingga memerlukan update API parameter apabila range yang dicakup lebih luas untuk menampilkan data.
 
 Karna bergantung terhadap update manual, project ini belum menampilkan data secara realtime.
 
