@@ -10,13 +10,13 @@ Karna bergantung terhadap update manual, project ini belum menampilkan data seca
 
 #### Base URL
 
-```http
+```bash
 https://sheets.googleapis.com
 ```
 
 #### Get data
 
-```http
+```bash
   GET /v4/spreadsheets/{{spreadsheetID}}/values/Master!A2:E48?key={{apiKey}}
 ```
 
