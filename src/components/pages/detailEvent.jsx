@@ -8,7 +8,7 @@ const DetailEvent = () => {
   const { id } = useParams();
 
   const fetcher = (url) => fetch(url).then((res) => res.json());
-  const url = `https://sheets.googleapis.com/v4/spreadsheets/${import.meta.env.VITE_SPREADSHEET_ID}/values/Pengeluaran!A2:J50?key=${import.meta.env.VITE_API_KEY}`
+  const url = `https://sheets.googleapis.com/v4/spreadsheets/${import.meta.env.VITE_SPREADSHEET_ID}/values/Pengeluaran!A2:J54?key=${import.meta.env.VITE_API_KEY}`
   const { data, error, isLoading } = useSWR(url, fetcher);
 
   if (error) return <div className="p-4">Error...</div>;
