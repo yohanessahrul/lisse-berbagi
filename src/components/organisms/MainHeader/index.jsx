@@ -43,7 +43,8 @@ const MainHeader = ({date, balance, handleTopupClick, handleAboutClick}) => {
           </TypoGraphy>
         </div>
         <div className="w-[48px] h-[48px] flex items-center justify-center rounded-[10px] bg-yellow-400">
-          <img className="cursor-pointer" onClick={() => handleTopupClick()} src="/images/import.svg" alt="import" />
+          {/* <img className="cursor-pointer" onClick={() => handleTopupClick()} src="/images/import.svg" alt="import" /> */}
+          <img className="cursor-pointer" src="/images/import.svg" alt="import" />
         </div>
       </div>
     </div>
